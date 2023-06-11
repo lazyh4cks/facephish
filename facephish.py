@@ -22,7 +22,7 @@ print(logo)
 
 @app.route('/')
 def index():
-    return render_template('webcam.html')
+    return render_template('filterAI.html')
 
 @app.route('/capture', methods=['POST'])
 def capture():
